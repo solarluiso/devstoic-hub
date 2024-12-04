@@ -1,31 +1,22 @@
-/* globals.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Font Variables */
+  --font-fira-sans: "Fira Sans", sans-serif;
+  --font-fira-mono: "Fira Mono", monospace;
+}
+
 /* Custom Body and Header Font-Family */
 body {
-  font-family: var(--fira-sans); /* Body font */
-  background-color: #1a202c; /* Dark mode background */
-  color: white; /* Text color */
+  font-family: var(--font-fira-sans);
+  background-color: #1a202c;
+  color: white;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--fira-mono); /* Header font */
-}
-
-/* Additional Styling */
-.bg-gray-900 {
-  background-color: #1a202c;
-}
-
-.text-violet-500 {
-  color: #8b5cf6; /* Violet color */
-}
-
-.text-slate-500 {
-  color: #64748b; /* Slate color */
+  font-family: var(--font-fira-sans);
 }
