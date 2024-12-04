@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DevStoic Hub
 
-## Getting Started
+DevStoic Hub is a web application designed to help developers cultivate productive habits and maintain focus throughout the day. With a modern, sleek design and a dark mode interface, this app provides a comfortable and legible experience for developers of all levels.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dark Mode**: A calming background and clear typography for optimal focus.
+- **Custom Fonts**: Fira Mono for body text and Fira Sans for headings to enhance legibility.
+- **TailwindCSS Styling**: A utility-first CSS framework used to create a clean, responsive layout.
+- **Next.js Framework**: Built with Next.js for fast, server-side rendering and easy navigation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for building web applications with server-side rendering and routing.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development.
+- **Google Fonts**: Custom fonts like Fira Sans and Fira Mono used for readability and aesthetic appeal.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To get started with DevStoic Hub, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   `git clone https://github.com/your-username/devstoic-hub.git`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate into the project directory: `cd devstoic-hub`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Install dependencies: `npm install`
 
-## Deploy on Vercel
+4. Run the development server: `npm run dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open your browser and go to http://localhost:3000
