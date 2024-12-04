@@ -1,21 +1,31 @@
+/* globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Custom Body and Header Font-Family */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--fira-sans); /* Body font */
+  background-color: #1a202c; /* Dark mode background */
+  color: white; /* Text color */
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fira-mono); /* Header font */
+}
+
+/* Additional Styling */
+.bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.text-violet-500 {
+  color: #8b5cf6; /* Violet color */
+}
+
+.text-slate-500 {
+  color: #64748b; /* Slate color */
 }
